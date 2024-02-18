@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"/>  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="font-family: 'poppins', sans-serif;">
+
+
+  <!-- header section start -->
+  <header class="mt-4">
+    <div class="container mx-auto">
+      <div class="bg-gray-50 py-8 px-8 rounded-xl grid gap-8 sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-4 xl:grid-rows-2 2xl:grid-cols-5 2xl:grid-rows-1">
+        <a class="flex justify-center sm:inline-block " href="#"><img src="./assets/img/logo.png" alt=""></a>
+        <div class="">
+          <div class="flex">
+            <img src="./assets/img/location.svg" alt="">
+            <span class="text-gray-500">Select Location</span>
+          </div>
+          <h6 class="text-[#252B61] font-semibold ml-5 text-lg">New York <i class="fa-solid fa-chevron-down ml-2"></i></h6>
+        </div>
+        <div class="">
+          <form class="bg-white pl-2 pr-14 rounded-3xl flex items-center">
+            <i class="fa-solid fa-magnifying-glass bg-[#F0DA69] p-3 rounded-full mr-2"></i>
+            <input type="text" placeholder="Medicine and healthcare items" class="outline-none py-4 text-gray-400">
+          </form>
+        </div>
+        <div>
+          <span class="bg-[#ff6712] text-white px-2 rounded-md">New</span>
+          <p class="text-[#252B61] text-lg">Healthcare Services <i class="fa-solid fa-chevron-down ml-2"></i></p>
+        </div>
+        <div class="flex items-center justify-between gap-10">
+          <div class="flex gap-2">
+            <img src="./assets/img/discount.svg" alt="">
+            <span>Offer</span>
+          </div>
+          <div class="flex gap-2">
+            <img src="./assets/img/shopping-cart-.svg" alt="">
+            <span>Cart</span>
+          </div>
+          <div class="flex gap-2">
+            <img src="./assets/img/content.svg" alt="">
+            <span>Login</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header section end -->
+
+
+  <!-- hero section start -->
+  <section class="mt-3">
+    <div class="container mx-auto">
+      <div class="bg-[#252B61] px-2 rounded-xl relative w-full h-[600px] sm:px-5">
+        <h1 class="text-7xl font-bold text-[#DBEBFF] absolute top-10 left-1/2 -translate-x-1/2 sm:text-8xl md:text-[130px] lg:text-[170px] xl:text-[220px]">Healthcare</h1>
+        <div class="flex justify-around items-center w-full absolute bottom-8 top-[100px] left-1/2 -translate-x-1/2">
+          <div class="flex justify-between items-center">
+            <img src="./assets/img/spo2.svg" alt="">
+            <p class="text-lg text-[#C7CBF5] ml-2">Reduce HbA1c</p>
+          </div>
+          <img class="absolute -bottom-8 left-1/2 -translate-x-1/2 w-[350px]" src="./assets/img/hero-img.png" alt="">
+          <div class="flex justify-between items-center">
+            <img src="./assets/img/pill.svg" alt="">
+            <p class="text-lg text-[#C7CBF5] ml-2">No more medications</p>
+          </div>
+        </div>
+        <!-- absolute bottom-7 left-1/2 -translate-x-1/2 flex justify-between items-center w-full gap-5 px-3 lg:w-[70%] lg:text-center lg:bottom-10 -->
+        <div class="absolute bottom-7 left-1/2 -translate-x-1/2 md:flex md:justify-between md:items-center w-full gap-5 px-3 lg:w-[70%] lg:text-center lg:bottom-10">
+          <p class="md:w-[60%] text-white text-sm md:text-base lg:w-[50%]">IF YOU'RE LOOKING FOR A CREATIVE AND 
+            EASY WAY TO BUILD A WEBSITE, WOW!
+            IS THE PERFECT SOLUTION.</p>
+          <div class="md:w-[40%] mt-10">
+            <button class=" bg-[#E7C2D4] text-[#252B61] py-2 px-4 rounded-full font-medium text-sm md:py-3 md:px-4 md:text-base lg:py-4 lg:px-6 lg:text-lg">Book Consultation</button>
+            <i class="fa-solid fa-arrow-right-long bg-[#E7C2D4] text-[#252B61] p-2 rounded-full md:p-3 md:text-base
+            lg:p-4"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero section end -->
+
+
+
+  <section class="mt-4">
+    <div class="container mx-auto">
+      <div class="mx-5 sm:mx-20 md:mx-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 lg:gird lg:grid-cols-3 lg:grid-rows-2 xl:grid xl:grid-cols-4 xl:grid-rows-1">
+        <div class="bg-[#f0da69] px-8 py-10 rounded-3xl h-[380px] mb-5">
+          <h2 class="text-[#252B61] text-3xl font-semibold mb-5">Instant Video <br>
+            Consultation</h2>
+          <span class="text-[#252B61]">Connect within 60 secs</span>
+          <div class="flex justify-between items-end mt-2">
+            <i class="fa-solid fa-arrow-right-long p-4 rounded-full bg-[#252B61] text-white"></i>
+            <img src="./assets/img/img-icon-1.png" alt="">
+          </div>
+        </div>
+        <div class="bg-[#A3DAC2] px-8 py-10 rounded-3xl h-[380px] mb-5">
+          <h2 class="text-[#252B61] text-3xl font-semibold mb-5">Find Doctors <br>near you</h2>
+          <span class="text-[#252B61]">Confirmed appointments</span>
+          <div class="flex justify-between items-end mt-2">
+            <i class="fa-solid fa-arrow-right-long p-4 rounded-full bg-[#252B61] text-white"></i>
+            <img src="./assets/img/img-icon-2.png" alt="">
+          </div>
+        </div>
+        <div class="bg-[#E7C2D4] px-8 py-10 rounded-3xl h-[380px] mb-5">
+          <h2 class="text-[#252B61] text-3xl font-semibold mb-5">24/7 <br>Medicines</h2>
+          <span class="text-[#252B61]">Essentials at your doorstep</span>
+          <div class="flex justify-between items-end mt-2">
+            <i class="fa-solid fa-arrow-right-long p-4 rounded-full bg-[#252B61] text-white"></i>
+            <img src="./assets/img/img-icon-3.png" alt="">
+          </div>
+        </div>
+        <div class="bg-[#92BDF6] px-8 py-10 rounded-3xl h-[380px]">
+          <h2 class="text-[#252B61] text-3xl font-semibold mb-5">Lab <br>
+            Tests</h2>
+          <span class="text-[#252B61]">Sample pickup at your home</span>
+          <div class="flex justify-between items-end mt-2">
+            <i class="fa-solid fa-arrow-right-long p-4 rounded-full bg-[#252B61] text-white"></i>
+            <img src="./assets/img/img-icon-4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- disease section start -->
+  <section class="mt-32 mb-28">
+    <div class="container mx-auto">
+      <div class="mb-9">
+        <h1 class="text-[#252B61] text-3xl font-bold px-5 sm:text-4xl md:text-5xl">Book an appointment for an <br> in-clinic consultation</h1>
+        <div class="mt-12 grid grid-cols-2 grid-rows-4 gap-4 sm:grid-cols-3 sm:grid-rows-3 md:grid-cols-4 md:grid-rows-2 lg:grid-cols-5 lg:grid-rows-2 xl:grid-cols-7 xl:grid-rows-1">
+          <div class="bg-[#F1F5F9] flex justify-between items-center py-3 px-5 rounded-full cursor-pointer text-[#252B61] hover:bg-[#252B61] hover:text-white duration-300">
+            <span class="font-medium text-lg mr-2">Orthopedists</span>
+            <img src="./assets/img/disease-img-1.png" alt="">
+          </div>
+          <div class="bg-[#F1F5F9] flex justify-between items-center py-3 px-5 rounded-full cursor-pointer text-[#252B61] hover:bg-[#252B61] hover:text-white duration-300">
+            <span class="font-medium text-lg mr-2">Obesity</span>
+            <img src="./assets/img/disease-img-2.png" alt="">
+          </div>
+          <div class="bg-[#F1F5F9] flex justify-between items-center py-3 px-5 rounded-full cursor-pointer text-[#252B61] hover:bg-[#252B61] hover:text-white duration-300">
+            <span class="font-medium text-lg mr-2">Neck pain</span>
+            <img src="./assets/img/disease-img-3.png" alt="">
+          </div>
+          <div class="bg-[#F1F5F9] flex justify-between items-center py-3 px-5 rounded-full cursor-pointer text-[#252B61] hover:bg-[#252B61] hover:text-white duration-300">
+            <span class="font-medium text-lg mr-2">Neurology</span>
+            <img src="./assets/img/disease-img-4.png" alt="">
+          </div>
+          <div class="bg-[#F1F5F9] flex justify-between items-center py-3 px-5 rounded-full cursor-pointer text-[#252B61] hover:bg-[#252B61] hover:text-white duration-300">
+            <span class="font-medium text-lg mr-2">Headache</span>
+            <img src="./assets/img/disease-img-5.png" alt="">
+          </div>
+          <div class="bg-[#F1F5F9] flex justify-between items-center py-3 px-5 rounded-full cursor-pointer text-[#252B61] hover:bg-[#252B61] hover:text-white duration-300">
+            <span class="font-medium text-lg mr-2">Shoulder</span>
+            <img src="./assets/img/disease-img-6.png" alt="">
+          </div>
+          <div class="bg-[#F1F5F9] flex justify-between items-center py-3 px-5 rounded-full cursor-pointer text-[#252B61] hover:bg-[#252B61] hover:text-white duration-300">
+            <span class="font-medium text-lg mr-2">Eye care</span>
+            <img src="./assets/img/disease-img-7.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="mx-5 sm:mx-20 md:grid md:grid-cols-2 md:grid-rows-2 gap-4 md:mx-0 lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-4 xl:grid-rows-1">
+        <div class="mb-10">
+          <div class="bg-gray-100 rounded-2xl">
+            <img src="./assets/img/doctor-1.png" alt="">
+          </div>
+          <div class="mt-4">
+            <h3 class="text-xl font-semibold">Dr. Sanjana Gupta</h3>
+            <span class="text-[#344054] font-medium">Neurosurgeon</span>
+          </div>
+        </div>
+        <div class="mb-10">
+          <div class="bg-gray-100 rounded-2xl">
+            <img src="./assets/img/doctor-2.png" alt="">
+          </div>
+          <div class="mt-4">
+            <h3 class="text-xl font-semibold">Dr. Pimple Popper</h3>
+            <span class="text-[#344054] font-medium">Psychiatrist</span>
+          </div>
+        </div>
+        <div class="mb-10">
+          <div class="bg-gray-100 rounded-2xl">
+            <img src="./assets/img/doctor-3.png" alt="">
+          </div>
+          <div class="mt-4">
+            <h3 class="text-xl font-semibold">Dr. Sherry Ross</h3>
+            <span class="text-[#344054] font-medium">Gynecologist</span>
+          </div>
+        </div>
+        <div class="">
+          <div class="bg-gray-100 rounded-2xl">
+            <img src="./assets/img/doctor-4.png" alt="">
+          </div>
+          <div class="mt-4">
+            <h3 class="text-xl font-semibold">Dr. Jen Gunter</h3>
+            <span class="text-[#344054] font-medium">Neurologist</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- disease section start -->
+
+
+  <section>
+    <div class="container mx-auto">
+      <div class="bg-[#0E1130] py-[120px] px-5 md:px-[60px] rounded-3xl">
+        <div class="">
+          <div class="sm:flex sm:justify-between sm:items-center">
+            <h2 class="text-3xl font-bold mb-5 sm:text-4xl md:text-5xl text-white">Frequently Book <br>
+              Lab Tests</h2>
+            <a href="#" class="text-lg font-medium text-white uppercase">View All Lab test <i class="fa-solid fa-arrow-right ml-2"></i></a>
+          </div>
+          <div class="mt-5 md:grid md:grid-cols-2 md:grid-rows-2 gap-4 xl:grid-cols-3 xl:grid-rows-1">
+            <div class="p-10 bg-[#FFEBE5] rounded-2xl h-[488px] mb-5">
+              <span class="px-2 py-1 bg-[#FBAD8D] rounded-lg">60% Off</span>
+              <h3 class="text-[28px] font-semibold text-[#252B61] py-2">Imaging <br>
+                tests</h3>
+              <p class="text-base text-[#252B61]">Imaging tests, such as X- <br> rays, CT scans, and MRIs</p>
+              <div class="flex justify-between items-end">
+                <h4 class="text-4xl font-semibold text-[#252B61]">$120 <span class="text-[#CA9281] text-lg font-ragular">$140</span></h4>
+                <img src="./assets/img/frequently-img-1.png" alt="">
+              </div>
+            </div>
+            <div class="p-10 bg-[#EDF8F3] rounded-2xl h-[488px] mb-5">
+              <span class="px-2 py-1 bg-[#A3DAC2] rounded-lg">60% Off</span>
+              <h3 class="text-[28px] font-semibold text-[#252B61] py-2">MRI & <br>
+                CT Scan</h3>
+              <p class="text-base text-[#252B61]">Imaging tests, such as X- <br> rays, CT scans, and MRIs</p>
+              <div class="flex justify-between items-end">
+                <h4 class="text-4xl font-semibold text-[#252B61]">$120 <span class="text-[#CA9281] text-lg font-ragular">$140</span></h4>
+                <img src="./assets/img/frequently-img-2.png" alt="">
+              </div>
+            </div>
+            <div class="p-10 bg-[#FDF8EB] rounded-2xl h-[488px]">
+              <span class="px-2 py-1 bg-[#F0DA69] rounded-lg">60% Off</span>
+              <h3 class="text-[28px] font-semibold text-[#252B61] py-2">Orthopedists <br>
+                tests</h3>
+              <p class="text-base text-[#252B61]">Orthopedists can diagnose <br> and treat various types of back and neck pain</p>
+              <div class="flex justify-between items-end">
+                <h4 class="text-4xl font-semibold text-[#252B61]">$120 <span class="text-[#CA9281] text-lg font-ragular">$140</span></h4>
+                <img src="./assets/img/frequently-img-3.png" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="mt-[120px]">
+          <div class="sm:flex sm:justify-between sm:items-center mb-12">
+            <h2 class="text-3xl font-bold mb-5 sm:text-4xl md:text-5xl text-white">Todays best deals <br>
+              for you!</h2>
+            <a href="#" class="text-lg font-medium text-white uppercase">See All Product <i class="fa-solid fa-arrow-right ml-2"></i></a>
+          </div>
+
+          <div class="md:grid md:grid-cols-2 md:grid-rows-2 gap-4 xl:grid-cols-3 xl:grid-rows-2 2xl:grid-cols-4 2xl:grid-rows-1">
+            <div class="bg-[#f1f5f9] rounded-3xl h-[480px] mb-5">
+              <div class="relative">
+                <img class="" src="./assets/img/PRODUCT IMAGE-1.png" alt="">
+                <a href="#" class="text-base font-medium text-[#252B61] bg-[#F0DA69] py-1 px-3 rounded-tl-md rounded-bl-md absolute top-7 right-0">20% Off</a>
+              </div>
+              <div class="bg-white p-4 rounded-2xl mb-5">
+                <div class="flex justify-between items-center">
+                  <span class="text-[#98A2B3] text-sm ">Nutrition</span>
+                  <span class="text-sm text-[#98A2B3]"><i class="text-[#FC8540] fa-solid fa-star"></i> (4.5)</span>
+                </div>
+                <h5 class="text-[#252B61] text-base font-medium pt-2 pb-4">Dietary Supplement <br>
+                  Health Products</h5>
+                <div class="flex justify-between items-center">
+                  <button class="text-[#252B61] font-medium py-3 px-4 border border-[#252B61] rounded-3xl hover:bg-[#F0DA69] hover:border-[#F0DA69] delay-300">+ Add to Cart</button>
+                  <h4 class="text-[#252B61] text-xl font-medium"><span class="text-[#98A2B3] text-sm">$80.00</span> $64.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="bg-[#f1f5f9] rounded-3xl h-[480px] mb-5">
+              <div class="relative">
+                <img class="" src="./assets/img/PRODUCT IMAGE-2.png" alt="">
+              </div>
+              <div class="bg-white p-4 rounded-2xl">
+                <div class="flex justify-between items-center">
+                  <span class="text-[#98A2B3] text-sm ">Healthcare</span>
+                  <span class="text-sm text-[#98A2B3]"><i class="text-[#FC8540] fa-solid fa-star"></i> (4.5)</span>
+                </div>
+                <h5 class="text-[#252B61] text-base font-medium pt-2 pb-4">Nitrile Disposable <br>
+                  gloves 100</h5>
+                <div class="flex justify-between items-center">
+                  <button class="text-[#252B61] font-medium py-3 px-4 border border-[#252B61] rounded-3xl hover:bg-[#F0DA69] hover:border-[#F0DA69] delay-300">+ Add to Cart</button>
+                  <h4 class="text-[#252B61] text-xl font-medium">$140.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="bg-[#f1f5f9] rounded-3xl h-[480px] mb-5">
+              <div class="relative">
+                <img class="" src="./assets/img/PRODUCT IMAGE-3.png" alt="">
+                <a href="#" class="text-base font-medium text-[#252B61] bg-[#F0DA69] py-1 px-3 rounded-tl-md rounded-bl-md absolute top-7 right-0">50% Off</a>
+              </div>
+              <div class="bg-white p-4 rounded-2xl">
+                <div class="flex justify-between items-center">
+                  <span class="text-[#98A2B3] text-sm ">Medicine</span>
+                  <span class="text-sm text-[#98A2B3]"><i class="text-[#FC8540] fa-solid fa-star"></i> (4.5)</span>
+                </div>
+                <h5 class="text-[#252B61] text-base font-medium pt-2 pb-4">Womens multi <br>
+                  Vitamins A, Biotin- cranberry</h5>
+                <div class="flex justify-between items-center">
+                  <button class="text-[#252B61] font-medium py-3 px-4 border border-[#252B61] rounded-3xl hover:bg-[#F0DA69] hover:border-[#F0DA69] delay-300">+ Add to Cart</button>
+                  <h4 class="text-[#252B61] text-xl font-medium"><span class="text-[#98A2B3] text-sm">$160.00</span> $80.00</h4>
+                </div>
+              </div>
+            </div>
+            <div class="bg-[#f1f5f9] rounded-3xl h-[480px]">
+              <div class="relative">
+                <img class="" src="./assets/img/PRODUCT IMAGE-4.png" alt="">
+              </div>
+              <div class="bg-white p-4 rounded-2xl">
+                <div class="flex justify-between items-center">
+                  <span class="text-[#98A2B3] text-sm ">Wellness</span>
+                  <span class="text-sm text-[#98A2B3]"><i class="text-[#FC8540] fa-solid fa-star"></i> (4.5)</span>
+                </div>
+                <h5 class="text-[#252B61] text-base font-medium pt-2 pb-4">Antibacterial Liquid <br>
+                  Hand Soap</h5>
+                <div class="flex justify-between items-center">
+                  <button class="text-[#252B61] font-medium py-3 px-4 border border-[#252B61] rounded-3xl hover:bg-[#F0DA69] hover:border-[#F0DA69] delay-300">+ Add to Cart</button>
+                  <h4 class="text-[#252B61] text-xl font-medium">$80.00</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- our health section start -->
+  <section class="py-[120px]">
+    <div class="container mx-auto">
+      <div class="bg-[url('./assets/img/health-bg.png')] h-auto bg-no-repeat bg-cover bg-center flex justify-center items-center rounded-3xl">
+        <div class="py-28 text-center">
+          <div class="bg-[#D9D9D9] bg-opacity-10 inline-block px-5 py-2 rounded-lg border border-[#D9D9D9] mb-5">
+            <span class="text-white text-base font-medium text-center">Healthcare solutions</span>
+          </div>
+          <h2 class="text-white text-5xl lg:text-7xl font-bold text-center">Your health is our</h2>
+          <h2 class="text-[#F0DA69] text-5xl lg:text-7xl font-bold text-center">Top priority <i class="ri-arrow-right-up-line w-8 h-8 bg-[#F0DA69] text-black rounded-full text-3xl p-3 lg:w-10 lg:h-10 lg:text-4xl lg:p-4"></i></h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- our health section end -->
+
+
+
+  <section class="mb-20">
+    <div class="container mx-auto">
+      <div class="sm:mx-10 lg:grid lg:grid-cols-2 gap-4">
+        <div class="bg-[#F0DA69] px-5 lg:px-12 pt-20 pb-10 rounded-2xl mb-5">
+          <span class="text-[#252B61] text-sm font-medium bg-[#FCF9E8] py-2 px-3 rounded-lg"><i class="fa-solid fa-circle text-[#FF6712] text-[8px]"></i> Podcast</span>
+          <h3 class="text-[#252B61] text-5xl font-semibold py-5">Nutrition and <br> Mental Health</h3>
+          <p class="text-[#344054] text-lg">The food we eat provides the nutrients <br> that our bodies and brains need to <br> function properly.</p>
+          <div class="flex justify-between items-end mt-5">
+            <i class="fa-solid fa-play w-20 h-20 rounded-full bg-white text-[#252B61] hidden md:inline-block md:flex md:justify-center md:items-center"></i>
+            <img src="./assets/img/food-bg-img.png" alt="">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="bg-[#2C438A] py-10 px-5 lg:px-12 rounded-3xl mb-4">
+            <div class="flex justify-between items-start">
+              <span class="text-[#252B61] text-sm font-medium bg-[#FCF9E8] py-2 px-3 rounded-lg"><i class="fa-solid fa-circle text-[#FF6712] text-[8px]"></i> Live Event</span>
+              <img src="./assets/img/healthy-heart-img.png" alt="">
+            </div>
+            <div class="">
+              <h3 class="text-4xl text-white font-semibold">Healthy Habits for a <br> Happy Heart</h3>
+            </div>
+          </div>
+
+          <div class="flex gap-5">
+            <div class="bg-[#A3DAC2] rounded-3xl w-1/2 p-5 relative h-60">
+              <img class="absolute top-3 right-3" src="./assets/img/experience-img.png" alt="">
+              <div class="absolute bottom-14">
+                <h3 class="text-[#252B61] text-5xl font-semibold">08</h3>
+                <p class="text-[22px] text-[#252B61] font-medium">Years Experience</p>
+              </div>
+            </div>
+            <div class="bg-[#E7C2D4] rounded-3xl w-1/2 p-5 relative h-60">
+              <img class="absolute top-3 right-3" src="./assets/img/customers-img.png" alt="">
+              <div class="absolute bottom-14">
+                <h3 class="text-[#252B61] text-5xl font-semibold">120k</h3>
+                <p class="text-[22px] text-[#252B61] font-medium">Happy Customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- testimonial section start -->
+  <section class="py-20">
+    <div class="container mx-auto">
+      <div class="mb-10">
+        <h3 class="text-3xl text-[#252B61] font-bold text-center px-5 sm:text-4xl md:text-5xl">Our doctors and clinics have earned <br> over 5,000+ reviews on Google!</h3>
+        <div class="mt-12 flex justify-center gap-3 mb-3">
+          <i class="fa-solid fa-star text-3xl text-[#06B963]"></i>
+          <i class="fa-solid fa-star text-3xl text-[#06B963]"></i>
+          <i class="fa-solid fa-star text-3xl text-[#06B963]"></i>
+          <i class="fa-solid fa-star text-3xl text-[#06B963]"></i>
+          <i class="fa-solid fa-star-half text-3xl text-[#06B963]"></i>
+        </div>
+        <p class="text-center text-xl font-medium">Average Google Rating is 4.6</p>
+      </div>
+      <div class="border border-[#F1F5F9] py-16 rounded-3xl px-5 md:flex md:justify-around md:items-center">
+        <div class="flex items-center mb-6">
+          <div class="mr-5">
+            <img src="./assets/img/testimonial-img.png" alt="">
+          </div>
+          <div class="">
+            <h4 class="text-xl font-medium text-[#252B61]">Esther Howard</h4>
+            <span class="text-[#667085] text-sm">Patient</span>
+          </div>
+        </div>
+        <div class="">
+          <p class="text-[#252B61] text-[20px] lg:text-[28px]">I had a great experience at this healthcare clinic. I was <br> seen quickly, and the doctor was able to diagnose and <br> treat my condition.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- testimonial section end -->  
+
+
+
+  <section class="mb-32">
+    <div class="container mx-auto">
+      <div class="lg:flex lg:justify-between lg:items-center">
+        <div class="bg-[#F0DA69] pt-20 pl-20 pr-20 rounded-3xl xl:h-[610px] mb-5 lg:w-[59%]">
+          <a href="#"><img src="./assets/img/logo-2.png" alt=""></a>
+          <div class="flex justify-center mt-7 relative">
+            <div class="relative hidden md:block">
+              <div class="bg-[url(./assets/img/Fetured-services.png)] h-[59%] bg-no-repeat bg-cover absolute bottom-14 left-1/2 translate-x-[-50%] px-7 py-12">
+                <span class="font-medium text-sm text-[#475467]">Dental</span>
+                <h4 class="text-[#252B61] text-2xl font-bold mb-20">Dental <br> Treatments</h4>
+                <i class="bg-[#252B61] text-white p-3 rounded-full fa-solid fa-arrow-right-long"></i>
+              </div>
+            </div>
+            <img src="./assets/img/app-demo-img-1.png" alt="">
+            <div class="absolute top-5 right-32">
+              <div class="bg-[#FAF0F6] p-7 rounded-2xl text-center hidden md:block">
+                <div class="bg-[#F5BCD9] rounded-full inline-block relative mb-3">
+                  <span class="bg-[#06b963] w-2 h-2 rounded-full block absolute top-0 right-4 border-2 border-white"></span>
+                  <img src="./assets/img/Mask-man.png" alt="">
+                  <div class="bg-white py-1 px-2 rounded-2xl absolute bottom-[-15px] left-2">
+                    <i class="fa-solid fa-star text-[#F0DA69]"></i>
+                    <span class="text-sm font-medium">4.5</span>
+                  </div>
+                </div>
+                <div class="">
+                  <h4 class="font-semibold text-sm text-[#252B61] block">Dr. Wesley Cain</h4>
+                  <span class="block text-xs text-[#667085] py-2">Surgeon, 5 yr</span>
+                  <button class="bg-[#252B61] text-white text-sm font-semibold py-2 px-4 rounded-lg cursor-pointer hover:bg-white hover:text-[#252B61] duration-300 block">Book Consult</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#E8EEF0] py-20 px-6 sm:px-16 rounded-3xl xl:h-[610px] lg:w-[39%]">
+          <div class="flex justify-center">
+            <img class="inline-block -m-4" src="./assets/img/box 1 5.png" alt="">
+            <img class="inline-block -m-4" src="./assets/img/box 1 4.png" alt="">
+            <img class="inline-block -m-4" src="./assets/img/box 1 3.png" alt="">
+            <img class="inline-block -m-4" src="./assets/img/box 1 2.png" alt="">
+            <img class="inline-block -m-4" src="./assets/img/box 1 1.png" alt="">
+          </div>
+          <h2 class="text-[#252B61] text-2xl sm:text-3xl font-semibold py-10">Download Our <br> <span class="text-[#737C8C]">Healthcare</span> App for <br> Easy Access</h2>
+          <div class="flex">
+            <img class="bg-[#252B61] px-8 py-4 mr-5 rounded-xl cursor-pointer" src="./assets/img/App-store-1.png" alt="">
+            <img class="bg-white px-8 py-4 rounded-xl cursor-pointer" src="./assets/img/google-play-1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <section>
+    <div class="container mx-auto">
+      <div class="sm:flex sm:justify-between sm:items-center">
+        <h2 class="text-3xl font-bold mb-5 sm:text-4xl md:text-5xl text-[#252B61]">Read top articles from <br>
+          health experts</h2>
+        <a href="#" class="text-lg font-medium text-[#252B61] uppercase">View All Lab test <i class="fa-solid fa-arrow-right ml-2"></i></a>
+      </div>
+      <div class="mt-20 lg:flex lg:justify-between lg:items-center gap-6">
+        <div class="bg-[#E8EEF0] p-10 rounded-2xl xl:h-[460px] mb-5 lg:w-[35%]">
+          <span class="text-[#252B61] text-base font-medium border-2 border-[#252B61] px-5 py-2 rounded-lg">Blog Topic</span>
+          <div class="hidden lg:block lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-3 lg:mt-5 xl:grid-cols-3 xl:grid-rows-1">
+            <img src="./assets/img/health-img-1.png" alt="">
+            <img src="./assets/img/health-img-2.png" alt="">
+            <img src="./assets/img/health-img-3.png" alt="">
+          </div>
+          <h3 class="text-[#252B61] text-2xl sm:text-3xl font-medium mt-7">Acne Care Combo of <br> Cetaphil Oily Skin Cleanse.</h3>
+        </div>
+        <div class="bg-[#A3DAC2] p-10 rounded-2xl xl:h-[460px] lg:w-[65%]">
+          <span class="text-[#252B61] text-base font-medium border-2 border-[#252B61] px-5 py-2 rounded-lg">Healthy lifestyle</span>
+          <div class="flex justify-between items-end mt-7 lg:mt-0">
+            <div class="">
+              <h3 class="text-[#252B61] text-2xl sm:text-3xl font-medium mb-10">Your Ultimate Guide <br> to Health and <br> Wellness</h3>
+              <div class="">
+                <button class="bg-white text-[#252B61] text-base font-medium py-3 px-7 rounded-full">Book Consultation</button>
+                <i class="fa-solid fa-arrow-right bg-white text-[#252B61] text-base py-3 px-4 rounded-full cursor-pointer"></i>
+              </div>
+            </div>
+            <img class="hidden lg:block" src="./assets/img/health-img-4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer section start -->
+  <footer class="mt-32 bg-[#0E1130] mx-3 md:mx-6 lg:mx-10 xl:14 rounded-3xl p-4 md:p-7 lg:p-10 xl:p-14">
+    <div class="container mx-auto">
+      <div class="bg-white p-4 md:p-7 lg:p-10 rounded-3xl mb-10">
+        <div class="md:grid md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-4 xl:grid-rows-1">
+          <div class="mb-6">
+            <h4 class="text-xl text-[#252B61] font-medium mb-5">Company</h4>
+            <ul>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">What’s New</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">About</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Press</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Careers</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Social Good</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Contact</a></li>    
+            </ul>
+          </div>
+          <div class="mb-6">
+            <h4 class="text-xl text-[#252B61] font-medium mb-5">Community</h4>
+            <ul>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Medicare for Business</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">2022 Creator Report</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Charities</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Creator Profile Directory</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Explore Templates</a></li>
+            </ul>
+          </div>
+          <div class="mb-6">
+            <h4 class="text-xl text-[#252B61] font-medium mb-5">Support</h4>
+            <ul>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Help Topics</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Getting Started</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Linktree Pro</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Features & How-Tos</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">FAQs</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Report a Violation</a></li>    
+            </ul>
+          </div>
+          <div class="">
+            <h4 class="text-xl text-[#252B61] font-medium mb-5">Trust & Legal</h4>
+            <ul>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Terms & Conditions</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Privacy Notice</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Cookie Notice</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Trust Center</a></li>
+              <li class="mb-2"><a class="text-[#344054] text-base" href="#">Cookie Preferences</a></li> 
+            </ul>
+          </div>
+        </div>
+        <div class="mt-6 md:flex md:justify-between md:items-center">
+          <div class="flex mb-3">
+            <a class="bg-[#252B61] py-4 px-8 rounded-xl mr-5" href="#"><img src="./assets/img/App-store-1.png" alt=""></a>
+            <a class="bg-[#252B61] py-4 px-8 rounded-xl" href="#"><img src="./assets/img/google-play-2.png" alt=""></a>
+          </div>
+          <div class="">
+            <i class="fa-brands fa-instagram bg-[#F1F5F9] text-[#475467] py-3 px-4 text-2xl rounded-full"></i>
+            <i class="fa-brands fa-twitter bg-[#F1F5F9] text-[#475467] py-3 px-4 text-2xl rounded-full ml-3"></i>
+            <i class="fa-brands fa-facebook-f bg-[#F1F5F9] text-[#475467] py-3 px-4 text-2xl rounded-full ml-3"></i>
+          </div>
+        </div>
+      </div>
+      <div class="bg-[#E7C2D4] rounded-3xl flex justify-center py-28">
+        <img src="./assets/img/large-logo.png" alt="">
+      </div>
+      <div class="mt-10 md:flex md:justify-between md:items-center">
+        <p class="text-[#B4B9E9] text-center"">©2022 Medicare</p>
+        <p class="text-[#B4B9E9] text-center">Design & Developed by MUSEMIND</p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+
+
+</body>
+</html>
