@@ -16,40 +16,45 @@
 
 
   <!-- header section start -->
+
   <header class="mt-4">
     <div class="container mx-auto">
-      <div class="bg-gray-50 py-8 px-8 rounded-xl grid gap-8 sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-4 xl:grid-rows-2 2xl:grid-cols-5 2xl:grid-rows-1">
-        <a class="flex justify-center sm:inline-block " href="#"><img src="./assets/img/logo.png" alt=""></a>
-        <div class="">
-          <div class="flex">
-            <img src="./assets/img/location.svg" alt="">
-            <span class="text-gray-500">Select Location</span>
+      <div class="2xl:flex 2xl:justify-between 2xl:items-center px-[25px] rounded-[20px] bg-[#F6F7F8] py-5">
+        <div class="grid gap-5 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 2xl:flex 2xl:justify-between 2xl:items-center 2xl:w-1/2">
+          <a class="flex justify-center sm:inline-block " href="#"><img src="./assets/img/logo.png" alt=""></a>
+          <div class="">
+            <div class="flex">
+              <img src="./assets/img/location.svg" alt="">
+              <span class="text-gray-500">Select Location</span>
+            </div>
+            <h6 class="text-[#252B61] font-semibold ml-5 text-lg">New York <i class="fa-solid fa-chevron-down ml-2"></i></h6>
           </div>
-          <h6 class="text-[#252B61] font-semibold ml-5 text-lg">New York <i class="fa-solid fa-chevron-down ml-2"></i></h6>
+          <div class="mb-5">
+            <form class="bg-white pl-2 pr-14 rounded-3xl flex items-center">
+              <i class="fa-solid fa-magnifying-glass bg-[#F0DA69] p-3 rounded-full mr-2"></i>
+              <input type="text" placeholder="Medicine and healthcare items" class="outline-none py-4 text-gray-400">
+            </form>
+          </div>
         </div>
-        <div class="">
-          <form class="bg-white pl-2 pr-14 rounded-3xl flex items-center">
-            <i class="fa-solid fa-magnifying-glass bg-[#F0DA69] p-3 rounded-full mr-2"></i>
-            <input type="text" placeholder="Medicine and healthcare items" class="outline-none py-4 text-gray-400">
-          </form>
-        </div>
-        <div>
-          <span class="bg-[#ff6712] text-white px-2 rounded-md">New</span>
-          <p class="text-[#252B61] text-lg">Healthcare Services <i class="fa-solid fa-chevron-down ml-2"></i></p>
-        </div>
-        <div class="flex items-center justify-between gap-10">
-          <div class="flex gap-2">
-            <img src="./assets/img/discount.svg" alt="">
-            <span>Offer</span>
+        <div class="grid gap-5 md:grid md:grid-cols-2 2xl:flex 2xl:justify-between 2xl:items-center 2xl:w-[40%]">
+          <div>
+            <span class="bg-[#ff6712] text-white px-2 rounded-md">New</span>
+            <p class="text-[#252B61] text-lg">Healthcare Services <i class="fa-solid fa-chevron-down ml-2"></i></p>
           </div>
-          <div class="flex gap-2">
-            <img src="./assets/img/shopping-cart-.svg" alt="">
-            <span>Cart</span>
-          </div>
-          <div class="flex gap-2">
-            <img src="./assets/img/content.svg" alt="">
-            <span>Login</span>
-          </div>
+          <div class="flex items-center justify-between gap-10">
+            <div class="flex gap-2">
+              <img src="./assets/img/discount.svg" alt="">
+              <span>Offer</span>
+            </div>
+            <div class="flex gap-2">
+              <img src="./assets/img/shopping-cart-.svg" alt="">
+              <span>Cart</span>
+            </div>
+            <div class="flex gap-2">
+              <img src="./assets/img/content.svg" alt="">
+              <span>Login</span>
+            </div>
+          </div> 
         </div>
       </div>
     </div>
@@ -60,28 +65,27 @@
   <!-- hero section start -->
   <section class="mt-3">
     <div class="container mx-auto">
-      <div class="bg-[#252B61] px-2 rounded-xl relative w-full h-[600px] sm:px-5">
-        <h1 class="text-7xl font-bold text-[#DBEBFF] absolute top-10 left-1/2 -translate-x-1/2 sm:text-8xl md:text-[130px] lg:text-[170px] xl:text-[220px]">Healthcare</h1>
+      <div class="bg-[#252B61] px-2 rounded-xl relative w-full h-[550px] sm:px-5">
+        <h1 class="text-6xl font-bold text-[#DBEBFF] absolute top-10 left-1/2 -translate-x-1/2 sm:text-8xl md:text-[130px] lg:text-[170px] xl:text-[220px]">Healthcare</h1>
         <div class="flex justify-around items-center w-full absolute bottom-8 top-[100px] left-1/2 -translate-x-1/2">
-          <div class="flex justify-between items-center">
+          <div class="hidden lg:flex lg:justify-between lg:items-center">
             <img src="./assets/img/spo2.svg" alt="">
             <p class="text-lg text-[#C7CBF5] ml-2">Reduce HbA1c</p>
           </div>
-          <img class="absolute -bottom-8 left-1/2 -translate-x-1/2 w-[350px]" src="./assets/img/hero-img.png" alt="">
-          <div class="flex justify-between items-center">
+          <img class="absolute -bottom-8 left-1/2 -translate-x-1/2" src="./assets/img/hero-img.png" alt="">
+          <div class="hidden lg:flex lg:justify-between lg:items-center">
             <img src="./assets/img/pill.svg" alt="">
             <p class="text-lg text-[#C7CBF5] ml-2">No more medications</p>
           </div>
         </div>
         <!-- absolute bottom-7 left-1/2 -translate-x-1/2 flex justify-between items-center w-full gap-5 px-3 lg:w-[70%] lg:text-center lg:bottom-10 -->
-        <div class="absolute bottom-7 left-1/2 -translate-x-1/2 md:flex md:justify-between md:items-center w-full gap-5 px-3 lg:w-[70%] lg:text-center lg:bottom-10">
-          <p class="md:w-[60%] text-white text-sm md:text-base lg:w-[50%]">IF YOU'RE LOOKING FOR A CREATIVE AND 
+        <div class="absolute bottom-7 left-1/2 -translate-x-1/2 md:flex md:justify-between md:items-center w-full gap-5 px-3 lg:w-[85%] lg:text-center lg:bottom-10">
+          <p class="hidden md:block md:w-[60%] text-white text-sm md:text-base lg:w-[25%] text-left">IF YOU'RE LOOKING FOR A CREATIVE AND 
             EASY WAY TO BUILD A WEBSITE, WOW!
             IS THE PERFECT SOLUTION.</p>
-          <div class="md:w-[40%] mt-10">
-            <button class=" bg-[#E7C2D4] text-[#252B61] py-2 px-4 rounded-full font-medium text-sm md:py-3 md:px-4 md:text-base lg:py-4 lg:px-6 lg:text-lg">Book Consultation</button>
-            <i class="fa-solid fa-arrow-right-long bg-[#E7C2D4] text-[#252B61] p-2 rounded-full md:p-3 md:text-base
-            lg:p-4"></i>
+          <div class="mt-10">
+            <button class="w-[200px] h-[60px] bg-[#E7C2D4] rounded-full">Book Consultation</button>
+            <i class="fa-solid fa-arrow-right-long w-[60px] h-[60px] bg-[#E7C2D4] rounded-full leading-[60px] text-center"></i>
           </div>
         </div>
       </div>
@@ -95,7 +99,7 @@
     <div class="container mx-auto">
       <div class="mx-5 sm:mx-20 md:mx-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 lg:gird lg:grid-cols-3 lg:grid-rows-2 xl:grid xl:grid-cols-4 xl:grid-rows-1">
         <div class="bg-[#f0da69] px-8 py-10 rounded-3xl h-[380px] mb-5">
-          <h2 class="text-[#252B61] text-3xl font-semibold mb-5">Instant Video <br>
+          <h2 class="text-[#252B61] text-[28px] font-semibold mb-5">Instant Video <br>
             Consultation</h2>
           <span class="text-[#252B61]">Connect within 60 secs</span>
           <div class="flex justify-between items-end mt-2">
@@ -104,7 +108,7 @@
           </div>
         </div>
         <div class="bg-[#A3DAC2] px-8 py-10 rounded-3xl h-[380px] mb-5">
-          <h2 class="text-[#252B61] text-3xl font-semibold mb-5">Find Doctors <br>near you</h2>
+          <h2 class="text-[#252B61] text-[28px] font-semibold mb-5">Find Doctors <br>near you</h2>
           <span class="text-[#252B61]">Confirmed appointments</span>
           <div class="flex justify-between items-end mt-2">
             <i class="fa-solid fa-arrow-right-long p-4 rounded-full bg-[#252B61] text-white"></i>
@@ -112,7 +116,7 @@
           </div>
         </div>
         <div class="bg-[#E7C2D4] px-8 py-10 rounded-3xl h-[380px] mb-5">
-          <h2 class="text-[#252B61] text-3xl font-semibold mb-5">24/7 <br>Medicines</h2>
+          <h2 class="text-[#252B61] text-[28px] font-semibold mb-5">24/7 <br>Medicines</h2>
           <span class="text-[#252B61]">Essentials at your doorstep</span>
           <div class="flex justify-between items-end mt-2">
             <i class="fa-solid fa-arrow-right-long p-4 rounded-full bg-[#252B61] text-white"></i>
@@ -120,7 +124,7 @@
           </div>
         </div>
         <div class="bg-[#92BDF6] px-8 py-10 rounded-3xl h-[380px]">
-          <h2 class="text-[#252B61] text-3xl font-semibold mb-5">Lab <br>
+          <h2 class="text-[#252B61] text-[28px] font-semibold mb-5">Lab <br>
             Tests</h2>
           <span class="text-[#252B61]">Sample pickup at your home</span>
           <div class="flex justify-between items-end mt-2">
@@ -137,7 +141,7 @@
   <section class="mt-32 mb-28">
     <div class="container mx-auto">
       <div class="mb-9">
-        <h1 class="text-[#252B61] text-3xl font-bold px-5 sm:text-4xl md:text-5xl">Book an appointment for an <br> in-clinic consultation</h1>
+        <h2 class="text-[#252B61] text-3xl font-bold px-5 sm:text-4xl md:leading-[60px] md:text-5xl">Book an appointment for an <br> in-clinic consultation</h2>
         <div class="mt-12 grid grid-cols-2 grid-rows-4 gap-4 sm:grid-cols-3 sm:grid-rows-3 md:grid-cols-4 md:grid-rows-2 lg:grid-cols-5 lg:grid-rows-2 xl:grid-cols-7 xl:grid-rows-1">
           <div class="bg-[#F1F5F9] flex justify-between items-center py-3 px-5 rounded-full cursor-pointer text-[#252B61] hover:bg-[#252B61] hover:text-white duration-300">
             <span class="font-medium text-lg mr-2">Orthopedists</span>
@@ -218,7 +222,7 @@
       <div class="bg-[#0E1130] py-[120px] px-5 md:px-[60px] rounded-3xl">
         <div class="">
           <div class="sm:flex sm:justify-between sm:items-center">
-            <h2 class="text-3xl font-bold mb-5 sm:text-4xl md:text-5xl text-white">Frequently Book <br>
+            <h2 class="text-3xl font-bold mb-5 sm:text-4xl md:text-5xl md:leading-[60px] text-white">Frequently Book <br>
               Lab Tests</h2>
             <a href="#" class="text-lg font-medium text-white uppercase">View All Lab test <i class="fa-solid fa-arrow-right ml-2"></i></a>
           </div>
@@ -258,7 +262,7 @@
         </div>
         <div class="mt-[120px]">
           <div class="sm:flex sm:justify-between sm:items-center mb-12">
-            <h2 class="text-3xl font-bold mb-5 sm:text-4xl md:text-5xl text-white">Todays best deals <br>
+            <h2 class="text-3xl font-bold mb-5 sm:text-4xl md:text-5xl md:leading-[60px] text-white">Todays best deals <br>
               for you!</h2>
             <a href="#" class="text-lg font-medium text-white uppercase">See All Product <i class="fa-solid fa-arrow-right ml-2"></i></a>
           </div>
@@ -346,10 +350,10 @@
     <div class="container mx-auto">
       <div class="bg-[url('./assets/img/health-bg.png')] h-auto bg-no-repeat bg-cover bg-center flex justify-center items-center rounded-3xl">
         <div class="py-28 text-center">
-          <div class="bg-[#D9D9D9] bg-opacity-10 inline-block px-5 py-2 rounded-lg border border-[#D9D9D9] mb-5">
+          <div class="bg-[#151B18] opacity-90 inline-block px-5 py-2 rounded-lg border-2 border-[#45463C] mb-5">
             <span class="text-white text-base font-medium text-center">Healthcare solutions</span>
           </div>
-          <h2 class="text-white text-5xl lg:text-7xl font-bold text-center">Your health is our</h2>
+          <h2 class="text-white text-5xl lg:text-7xl font-bold text-center mb-5">Your health is our</h2>
           <h2 class="text-[#F0DA69] text-5xl lg:text-7xl font-bold text-center">Top priority <i class="ri-arrow-right-up-line w-8 h-8 bg-[#F0DA69] text-black rounded-full text-3xl p-3 lg:w-10 lg:h-10 lg:text-4xl lg:p-4"></i></h2>
         </div>
       </div>
@@ -359,7 +363,7 @@
 
 
 
-  <section class="mb-20">
+  <section class="mb-20 mx-5 sm:mx-0">
     <div class="container mx-auto">
       <div class="sm:mx-10 lg:grid lg:grid-cols-2 gap-4">
         <div class="bg-[#F0DA69] px-5 lg:px-12 pt-20 pb-10 rounded-2xl mb-5">
@@ -406,7 +410,7 @@
 
 
   <!-- testimonial section start -->
-  <section class="py-20">
+  <section class="py-20 mx-5 sm:mx-0">
     <div class="container mx-auto">
       <div class="mb-10">
         <h3 class="text-3xl text-[#252B61] font-bold text-center px-5 sm:text-4xl md:text-5xl">Our doctors and clinics have earned <br> over 5,000+ reviews on Google!</h3>
@@ -442,7 +446,7 @@
 
   <section class="mb-32">
     <div class="container mx-auto">
-      <div class="lg:flex lg:justify-between lg:items-center">
+      <div class="lg:flex lg:justify-between mx-5 sm:mx-0">
         <div class="bg-[#F0DA69] pt-20 pl-20 pr-20 rounded-3xl xl:h-[610px] mb-5 lg:w-[59%]">
           <a href="#"><img src="./assets/img/logo-2.png" alt=""></a>
           <div class="flex justify-center mt-7 relative">
@@ -475,11 +479,11 @@
         </div>
         <div class="bg-[#E8EEF0] py-20 px-6 sm:px-16 rounded-3xl xl:h-[610px] lg:w-[39%]">
           <div class="flex justify-center">
-            <img class="inline-block -m-4" src="./assets/img/box 1 5.png" alt="">
-            <img class="inline-block -m-4" src="./assets/img/box 1 4.png" alt="">
-            <img class="inline-block -m-4" src="./assets/img/box 1 3.png" alt="">
-            <img class="inline-block -m-4" src="./assets/img/box 1 2.png" alt="">
-            <img class="inline-block -m-4" src="./assets/img/box 1 1.png" alt="">
+            <img class="inline-block -m-4 w-[25%] sm:w-full" src="./assets/img/box 1 5.png" alt="">
+            <img class="inline-block -m-4 w-[25%] sm:w-full" src="./assets/img/box 1 4.png" alt="">
+            <img class="inline-block -m-4 w-[25%] sm:w-full" src="./assets/img/box 1 3.png" alt="">
+            <img class="inline-block -m-4 w-[25%] sm:w-full" src="./assets/img/box 1 2.png" alt="">
+            <img class="inline-block -m-4 w-[25%] sm:w-full" src="./assets/img/box 1 1.png" alt="">
           </div>
           <h2 class="text-[#252B61] text-2xl sm:text-3xl font-semibold py-10">Download Our <br> <span class="text-[#737C8C]">Healthcare</span> App for <br> Easy Access</h2>
           <div class="flex">
@@ -495,11 +499,11 @@
   <section>
     <div class="container mx-auto">
       <div class="sm:flex sm:justify-between sm:items-center">
-        <h2 class="text-3xl font-bold mb-5 sm:text-4xl md:text-5xl text-[#252B61]">Read top articles from <br>
+        <h2 class="text-3xl font-bold mb-5 sm:text-4xl md:text-5xl md:leading-[60px] text-[#252B61]">Read top articles from <br>
           health experts</h2>
         <a href="#" class="text-lg font-medium text-[#252B61] uppercase">View All Lab test <i class="fa-solid fa-arrow-right ml-2"></i></a>
       </div>
-      <div class="mt-20 lg:flex lg:justify-between lg:items-center gap-6">
+      <div class="mt-20 lg:flex lg:justify-between gap-6">
         <div class="bg-[#E8EEF0] p-10 rounded-2xl xl:h-[460px] mb-5 lg:w-[35%]">
           <span class="text-[#252B61] text-base font-medium border-2 border-[#252B61] px-5 py-2 rounded-lg">Blog Topic</span>
           <div class="hidden lg:block lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-3 lg:mt-5 xl:grid-cols-3 xl:grid-rows-1">
